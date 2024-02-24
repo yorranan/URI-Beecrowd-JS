@@ -1,0 +1,1 @@
+require("fs").readFileSync("/dev/stdin", "utf8").length < 10 ? console.log("palavrinha") : console.log("palavrao")
